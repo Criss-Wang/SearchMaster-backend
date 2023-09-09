@@ -36,7 +36,7 @@ public class FetchInitPostList implements CommandLineRunner {
     @Override
     public void run(String... args) {
         // 1. 获取数据
-        String json = "{\"current\":1,\"pageSize\":8,\"sortField\":\"createTime\",\"sortOrder\":\"descend\",\"category\":\"文章\",\"reviewStatus\":1}";
+        String json = "{\"current\":1,\"pageSize\":8,\"sortField\":\"createTime\",\"sortOrder\":\"descend\",\"category\":\"Article\",\"reviewStatus\":1}";
         String url = "https://www.code-nav.cn/api/post/search/page/vo";
         String result = HttpRequest
                 .post(url)
