@@ -7,6 +7,11 @@
 3. API optimization - aggregation
     - Issue: 
 
+4. Web scarping methods:
+   - Direct API data
+   - Scrap by html
+   - headless browser
+
 [//]: # (## 项目简介)
 
 [//]: # ()
